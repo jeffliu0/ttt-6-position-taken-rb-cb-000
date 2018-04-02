@@ -6,5 +6,5 @@ def position_taken(board, index)
   end
 end
 
-board = Array.new(9, " ")
-puts position_taken(board, 0)
+#board = Array.new(9, " ")
+#puts position_taken(board, 0)
