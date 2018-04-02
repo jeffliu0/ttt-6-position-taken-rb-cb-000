@@ -6,3 +6,4 @@ def position_taken(board, index)
 end
 
 board = Array.new(9, " ")
+position_taken(board, 9)
