@@ -6,5 +6,5 @@ def position_taken(board, index)
   end
 end
 
-board = []]
-#puts position_taken(board, 0)
+board = []
+puts position_taken(board, 0)
