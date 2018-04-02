@@ -6,5 +6,5 @@ def position_taken(board, index)
   end
 end
 
-board = []
+board = []<<9
 puts position_taken(board, 0)
