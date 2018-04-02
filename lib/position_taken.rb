@@ -6,5 +6,5 @@ def position_taken(board, index)
   end
 end
 
-board = [].shift"X"
+board[0] = "X"
 puts position_taken(board, 0)
