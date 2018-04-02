@@ -2,8 +2,10 @@
 def position_taken(board, index)
   if board[index] != nil || board[index] != " " || board[index] != ""
     return true
+  else
+    return false
   end
 end
 
 board = Array.new(9, " ")
-position_taken(board, 9)
+position_taken(board, 0)
