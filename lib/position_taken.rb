@@ -2,8 +2,8 @@
 def position_taken?(board, index)
   flag = [" ","", nil]
   if flag.includes? board[index]
-    return true
-  return false
+    return false
+  return true
   end
 end
 board = []
